@@ -40,6 +40,8 @@ ess.com/2019/03/kitten-report.jpg
 
 ❏ Successful responses have a 200 code, at least one error code for caught errors
 (i.e. 422)
+❌	 for wrong urls it is not working properly the returned values is 404 not 422 
+
 
 #### Elastic Beanstalk Deployment
 ❏ An endpoint URL for a running elastic beanstalk deployment (EB_URL) has been
