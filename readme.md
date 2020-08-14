@@ -4,14 +4,16 @@
 #### Engineering Process and Quality
 ❏ All project code is stored in a GitHub repository and this link has been submitted
 for review. There are at least two branches - one for development (dev,
+development) and one master. Master should contain the most up-to-date, stable
+code at the time of submission.
 
 ❌	 this part isnt satified as repo was deleted missing 
 
 <img src="https://github.com/AliAhmedNada/muradbiskinImageFilterReview/blob/master/images/Capture.PNG" alt="image posted" width="250"/>
 
 
-development) and one master. Master should contain the most up-to-date, stable
-code at the time of submission.
+
+
 ❏ Any variables use typescript typing wherever possible, variable and function
 names are clear, endpoints are logically named. Good coding practices are
 followed.
