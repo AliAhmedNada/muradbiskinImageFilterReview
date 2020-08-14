@@ -39,11 +39,32 @@ ess.com/2019/03/kitten-report.jpg
 <img src="https://github.com/AliAhmedNada/muradbiskinImageFilterReview/blob/master/images/Capture.PNG" alt="image posted" width="250"/>
 
 ❏ Successful responses have a 200 code, at least one error code for caught errors
-(i.e. 422)
+(i.e. 422) <br>
 ❌	 for wrong urls it is not working properly the returned values is 404 not 422 <br>
 <img src="https://github.com/AliAhmedNada/muradbiskinImageFilterReview/blob/master/images/404.PNG" alt="image posted" width="250"/>
 <br>
 💡	 Always use try and catch in your code as it is the best pratice to handle errors that is unexpected use it in ```utils/utils.ts``` and ```server.ts```
+example 
+```
+server.ts
+try {
+    res.sendFile(response);
+} catch (err) {
+    res.status(422).send("Please send the correct image_url");
+}
+```
+
+```utils
+   return new Promise(async resolve => {
+        try {
+   /*the code of the utils */
+        } catch (err) {
+            //throw new Error("Expection error!");
+            resolve(err.message)
+        }
+
+
+```
 
 #### Elastic Beanstalk Deployment
 ❏ An endpoint URL for a running elastic beanstalk deployment (EB_URL) has been
