@@ -72,7 +72,12 @@ submitted along with the project submission. This endpoint responds to valid
 GET requests including:
 http://{{EB_URL}}/filteredimage?image_url=https://timedotcom.files.wordpress.co
 m/2019/03/kitten-report.jpg
+❌	the elastic bean URL is not working nor responding , it seems it is off or deleted please start it again 
+
+
 ❏ The project was deployed using the AWS Elastic Beanstalk CLI eb init, eb
 create, and eb deploy commands.
 A screenshot of the elastic beanstalk application dashboard is included in a
 deployment_screenshot directory.
+✔️ this requirement is satisfied from screenshot attached 
+
