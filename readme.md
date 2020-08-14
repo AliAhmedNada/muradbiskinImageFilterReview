@@ -77,7 +77,7 @@ m/2019/03/kitten-report.jpg
 ```
 <img src="https://github.com/AliAhmedNada/muradbiskinImageFilterReview/blob/master/images/beanelastic.PNG" alt="image posted" width="250"/>
 http://udacity-cloud-developer-project-2.eu-central-1.elasticbeanstalk.com/
-
+<br>
 
 ❏ The project was deployed using the AWS Elastic Beanstalk CLI eb init, eb
 create, and eb deploy commands.
