@@ -46,7 +46,7 @@ ess.com/2019/03/kitten-report.jpg
 <img src="https://github.com/AliAhmedNada/muradbiskinImageFilterReview/blob/master/images/404.PNG" alt="image posted" width="250"/>
 <br>
 ```
-💡Always use try and catch in your code as it is the best pratice to handle errors that is unexpected use it in ```utils/utils.ts``` and ```server.ts```
+💡Always use try and catch in your code as it is the best pratice to handle errors that is unexpected use it in utils/utils.ts and server.ts
 example 
 server.ts
 try {
