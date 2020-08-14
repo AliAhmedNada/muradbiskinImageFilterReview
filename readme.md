@@ -47,10 +47,10 @@ ess.com/2019/03/kitten-report.jpg
 <br>
 ```
 💡Always use try and catch in your code as it is the best pratice to handle errors that is unexpected use it in utils/utils.ts and server.ts
-example 
 ```
 
 ```
+example
 server.ts
 try {
     res.sendFile(response);
