@@ -9,7 +9,7 @@ for review. There are at least two branches - one for development (dev,
 development) and one master. Master should contain the most up-to-date, stable
 code at the time of submission.
 ```
-❌	 this part isnt satisfied as repo was deleted or missing 
+❌this part isnt satisfied as repo was deleted or missing 
 "https://github.com/muradbiskin/udacity-cloud-developer-project-2"
 try to push your code to the repo again and create master and dev branch to the repo 
 ```
@@ -45,7 +45,8 @@ ess.com/2019/03/kitten-report.jpg
 ```
 <img src="https://github.com/AliAhmedNada/muradbiskinImageFilterReview/blob/master/images/404.PNG" alt="image posted" width="250"/>
 <br>
-💡	 Always use try and catch in your code as it is the best pratice to handle errors that is unexpected use it in ```utils/utils.ts``` and ```server.ts```
+```
+💡Always use try and catch in your code as it is the best pratice to handle errors that is unexpected use it in ```utils/utils.ts``` and ```server.ts```
 example 
 ```
 server.ts
@@ -75,7 +76,7 @@ GET requests including:
 http://{{EB_URL}}/filteredimage?image_url=https://timedotcom.files.wordpress.co
 m/2019/03/kitten-report.jpg
 ```
-❌	the elastic bean URL is not working nor responding , it seems it is off or deleted please start it again 
+❌the elastic bean URL is not working nor responding , it seems it is off or deleted please start it again 
 ```
 <img src="https://github.com/AliAhmedNada/muradbiskinImageFilterReview/blob/master/images/beanelastic.PNG" alt="image posted" width="250"/>
 http://udacity-cloud-developer-project-2.eu-central-1.elasticbeanstalk.com/
