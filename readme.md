@@ -1,7 +1,7 @@
-###So far so good, your are almost there , you might still need to do some work to finish this project , Do Stop , Keep learning with Udacity 💪💪💪💪💪
+### So far so good, your are almost there , you might still need to do some work to finish this project , Do Stop , Keep learning with Udacity 💪💪💪💪💪
 
 
-####Engineering Process and Quality
+#### Engineering Process and Quality
 ❏ All project code is stored in a GitHub repository and this link has been submitted
 for review. There are at least two branches - one for development (dev,
 
@@ -11,7 +11,7 @@ code at the time of submission.
 names are clear, endpoints are logically named. Good coding practices are
 followed.
 
-####Development Server
+#### Development Server
 ❏ Starting the server with npm run dev runs a local instance of the server with no
 errors
 ❏ The stubbed @TODO1 endpoint in src/server.ts is completed and accepts
@@ -21,7 +21,7 @@ ess.com/2019/03/kitten-report.jpg
 ❏ Successful responses have a 200 code, at least one error code for caught errors
 (i.e. 422)
 
-####Elastic Beanstalk Deployment
+#### Elastic Beanstalk Deployment
 ❏ An endpoint URL for a running elastic beanstalk deployment (EB_URL) has been
 submitted along with the project submission. This endpoint responds to valid
 GET requests including:
