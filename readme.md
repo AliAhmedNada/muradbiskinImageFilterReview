@@ -7,7 +7,7 @@ for review. There are at least two branches - one for development (dev,
 
 ❌	 this part isnt satified as repo was deleted missing 
 
-![repo missing ](https://github.com/AliAhmedNada/muradbiskinImageFilterReview/blob/master/images/Capture.PNG)
+![repo missing ](https://github.com/AliAhmedNada/muradbiskinImageFilterReview/blob/master/images/Capture.PNG = 250x250)
 
 
 
