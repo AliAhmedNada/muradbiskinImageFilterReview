@@ -6,31 +6,34 @@
 for review. There are at least two branches - one for development (dev,
 development) and one master. Master should contain the most up-to-date, stable
 code at the time of submission.
-
+```
 ❌	 this part isnt satisfied as repo was deleted or missing "https://github.com/muradbiskin/udacity-cloud-developer-project-2"
 <img src="https://github.com/AliAhmedNada/muradbiskinImageFilterReview/blob/master/images/repo%20not%20found.PNG" alt="image posted" width="250"/> <br>
 try to push your code to the repo again and create master and dev branch to the repo 
-
+```
 
 
 ❏ Any variables use typescript typing wherever possible, variable and function
 names are clear, endpoints are logically named. Good coding practices are
 followed.
+```
 ✔️	this part is satisfied but you might need more enhacement as to always define types of variables .
 💡   example `app.get( "/", async ( req: any, res: any )`
-
+```
 #### Development Server
 ❏ Starting the server with npm run dev runs a local instance of the server with no
 errors
+```
 ✔️ this part is working properly with no issues 
-
+```
 ❏ The stubbed @TODO1 endpoint in src/server.ts is completed and accepts
 valid requests including:
 http://localhost:{{PORT}}/filteredimage?image_url=https://timedotcom.files.wordpr
 ess.com/2019/03/kitten-report.jpg
+```
 ✔️ I know that this image is corrupted and missing , using another image , it worked perfectly 
 <img src="https://github.com/AliAhmedNada/muradbiskinImageFilterReview/blob/master/images/capture.png" alt="image posted" width="250"/>
-
+```
 
 ❏ Successful responses have a 200 code, at least one error code for caught errors
 (i.e. 422)
