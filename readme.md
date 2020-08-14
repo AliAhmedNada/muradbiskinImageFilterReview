@@ -86,5 +86,5 @@ deployment_screenshot directory.
 ```
 ✔️ this requirement is satisfied from screenshot attached 
 ```
-<img src="https://github.com/AliAhmedNada/muradbiskinImageFilterReview/blob/master/images/beanelastic.PNG" alt="image posted" width="250"/>
+<img src="https://github.com/AliAhmedNada/muradbiskinImageFilterReview/blob/master/muradbiskin-udacity-cloud-developer-project-2-5ee970c/deployment_screenshots/deployment_screenshot.png" alt="image posted" width="250"/>
 
