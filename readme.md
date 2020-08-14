@@ -48,15 +48,16 @@ ess.com/2019/03/kitten-report.jpg
 ```
 💡Always use try and catch in your code as it is the best pratice to handle errors that is unexpected use it in utils/utils.ts and server.ts
 example 
+```
+
+```
 server.ts
 try {
     res.sendFile(response);
 } catch (err) {
     res.status(422).send("Please send the correct image_url");
 }
-```
-
-```utils
+utils
    return new Promise(async resolve => {
         try {
    /*the code of the utils */
@@ -64,8 +65,6 @@ try {
             //throw new Error("Expection error!");
             resolve(err.message)
         }
-
-
 ```
 
 #### Elastic Beanstalk Deployment
