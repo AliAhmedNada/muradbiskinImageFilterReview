@@ -45,9 +45,9 @@ ess.com/2019/03/kitten-report.jpg
 ```
 <img src="https://github.com/AliAhmedNada/muradbiskinImageFilterReview/blob/master/images/404.PNG" alt="image posted" width="250"/>
 <br>
-```
+
 💡Always use try and catch in your code as it is the best pratice to handle errors that is unexpected use it in utils/utils.ts and server.ts
-```
+
 
 ```
 example
@@ -57,7 +57,7 @@ try {
 } catch (err) {
     res.status(422).send("Please send the correct image_url");
 }
-utils
+utils.ts
    return new Promise(async resolve => {
         try {
    /*the code of the utils */
