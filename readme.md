@@ -11,7 +11,7 @@ code at the time of submission.
 ```
 ❌this part isnt satisfied as repo was deleted or missing 
 "https://github.com/muradbiskin/udacity-cloud-developer-project-2"
-try to push your code to the repo again and create master and dev branch to the repo 
+try to push your code to the repo again and create master and dev branch to the repo and make sure to be public
 ```
 <img src="https://github.com/AliAhmedNada/muradbiskinImageFilterReview/blob/master/images/repo%20not%20found.PNG" alt="image posted" width="250"/> <br>
 
