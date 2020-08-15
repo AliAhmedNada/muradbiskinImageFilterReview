@@ -1,6 +1,6 @@
 ## Code Review for Image Filter Project 
 
-### So far so good, your are almost there , you might still need to do some work to finish this project , Don't Stop , Keep learning with Udacity 💪💪💪💪💪 
+### So far so good, you're almost there , you might need to do some work to finish this project , Don't Stop , Keep learning with Udacity 💪💪💪💪💪 
 
 
 #### Engineering Process and Quality
@@ -20,7 +20,7 @@ try to push your code to the repo again and create master and dev branch to the 
 names are clear, endpoints are logically named. Good coding practices are
 followed.
 ```
-✔️	this part is satisfied but you might need more enhacement as to always define types of variables .
+✔️	you satisfied this part but you might need more enhancements, always define types of variables .
 💡   example `app.get( "/", async ( req: any, res: any )`
 ```
 #### Development Server
@@ -34,14 +34,14 @@ valid requests including:
 http://localhost:{{PORT}}/filteredimage?image_url=https://timedotcom.files.wordpr
 ess.com/2019/03/kitten-report.jpg
 ```
-✔️ I know that this image is corrupted and missing , using another image , it worked perfectly 
+✔️ current image is corrupted and missing , i've used another image , it worked perfectly ..
 ```
 <img src="https://github.com/AliAhmedNada/muradbiskinImageFilterReview/blob/master/images/Capture.PNG" alt="image posted" width="250"/>
 
 ❏ Successful responses have a 200 code, at least one error code for caught errors
 (i.e. 422) <br>
 ```
-❌	 for wrong urls it is not working properly the returned values is 404 not 422 <br>
+❌	 for wrong urls it didnt work as expected ,response status return is 404 not 422 
 ```
 <img src="https://github.com/AliAhmedNada/muradbiskinImageFilterReview/blob/master/images/404.PNG" alt="image posted" width="250"/>
 <br>
@@ -62,7 +62,6 @@ utils.ts
         try {
    /*the code of the utils */
         } catch (err) {
-            //throw new Error("Expection error!");
             resolve(err.message)
         }
 ```
@@ -74,7 +73,7 @@ GET requests including:
 http://{{EB_URL}}/filteredimage?image_url=https://timedotcom.files.wordpress.co
 m/2019/03/kitten-report.jpg
 ```
-❌the elastic bean URL is not working nor responding , it seems it is off or deleted please start it again 
+❌ the elastic bean APP is not working nor responding , it seems it is off or deleted please start it again 
 ```
 <img src="https://github.com/AliAhmedNada/muradbiskinImageFilterReview/blob/master/images/beanelastic.PNG" alt="image posted" width="250"/>
 http://udacity-cloud-developer-project-2.eu-central-1.elasticbeanstalk.com/
